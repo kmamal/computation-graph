@@ -11,6 +11,12 @@
     "update-exports": "node ./scripts/update-exports.mjs"
   },
   "exports": {
+    "./nodes/logic": "./src/nodes/logic.js",
+    "./nodes/finance/from-candle": "./src/nodes/finance/from-candle.js",
+    "./nodes/finance/from-price": "./src/nodes/finance/from-price.js",
+    "./nodes/math": "./src/nodes/math.js",
+    "./nodes/moving-averages": "./src/nodes/moving-averages.js",
+    "./nodes/statistics": "./src/nodes/statistics.js",
     ".": "./src/index.js"
   },
   "main": "./src/index.js"
